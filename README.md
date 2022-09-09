@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# React Concurrent Feature
+
+In this repo, you can find examples of using new features from React 18, such as useTransition, useDefferValue, setTransitions, and combining React. Suspense and useTransition.
+
+You can find more information and useful links about this in [this presentation](https://docs.google.com/presentation/d/1z-6rZVJ0zkaVfuDYzt-CeZFT2ZdXDti_qUIW8A7-RIU/edit#slide=id.g4e805724bf_0_37).
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

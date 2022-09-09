@@ -1,9 +1,9 @@
-export async function fetcher(url: string) {
-  const rsp = await fetch(url);
-  if (rsp.ok) {
-    const data = await rsp.json();
-    return data;
-  } else {
-    throw new Error(rsp.statusText);
-  }
+import { wrapPromise } from "./wrapPromise";
+
+export function fetchData(url: string) {
+  const promise = fetch(url)
+    .then((res) => res.json())
+    .then((res) => res.data);
+
+  return wrapPromise(promise);
 }
